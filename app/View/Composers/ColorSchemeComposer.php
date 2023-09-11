@@ -13,7 +13,7 @@ class ColorSchemeComposer
     {
         $view->with(
             'colorScheme',
-            session()->has('color_scheme') ? session('color_scheme') : "default"
+            session()->has('color_scheme') ? session('color_scheme') : 'default'
         );
     }
 }

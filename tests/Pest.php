@@ -11,7 +11,10 @@
 |
 */
 
+use App\Models\User;
 use Illuminate\Foundation\Testing\LazilyRefreshDatabase;
+
+use function Pest\Laravel\actingAs;
 
 uses(Tests\TestCase::class,
     LazilyRefreshDatabase::class
@@ -43,7 +46,9 @@ expect()->extend('toBeOne', function () {
 |
 */
 
-function something()
+function logInAsUser(User $user = null): Illuminate\Foundation\Testing\TestCase
 {
-    // ..
+    $user = $user ?? User::factory()->create();
+
+    return actingAs($user);
 }

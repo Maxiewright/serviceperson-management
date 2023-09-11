@@ -8,11 +8,10 @@ class PageController extends Controller
 {
     /**
      * Show specified view.
-     *
      */
     public function dashboardOverview1(): View
     {
-        return view('pages/dashboard-overview-1', [
+        return view('pages/dashboard', [
             // Specify the base layout.
             // Eg: 'side-menu', 'simple-menu', 'top-menu', 'login'
             // The default value is 'side-menu'
@@ -23,7 +22,6 @@ class PageController extends Controller
 
     /**
      * Show specified view.
-     *
      */
     public function dashboardOverview2(): View
     {
@@ -32,7 +30,6 @@ class PageController extends Controller
 
     /**
      * Show specified view.
-     *
      */
     public function dashboardOverview3(): View
     {
@@ -41,7 +38,6 @@ class PageController extends Controller
 
     /**
      * Show specified view.
-     *
      */
     public function dashboardOverview4(): View
     {
@@ -50,7 +46,6 @@ class PageController extends Controller
 
     /**
      * Show specified view.
-     *
      */
     public function inbox(): View
     {
@@ -59,7 +54,6 @@ class PageController extends Controller
 
     /**
      * Show specified view.
-     *
      */
     public function categories(): View
     {
@@ -68,7 +62,6 @@ class PageController extends Controller
 
     /**
      * Show specified view.
-     *
      */
     public function addProduct(): View
     {
@@ -77,7 +70,6 @@ class PageController extends Controller
 
     /**
      * Show specified view.
-     *
      */
     public function productList(): View
     {
@@ -86,7 +78,6 @@ class PageController extends Controller
 
     /**
      * Show specified view.
-     *
      */
     public function productGrid(): View
     {
@@ -95,7 +86,6 @@ class PageController extends Controller
 
     /**
      * Show specified view.
-     *
      */
     public function transactionList(): View
     {
@@ -104,7 +94,6 @@ class PageController extends Controller
 
     /**
      * Show specified view.
-     *
      */
     public function transactionDetail(): View
     {
@@ -113,7 +102,6 @@ class PageController extends Controller
 
     /**
      * Show specified view.
-     *
      */
     public function sellerList(): View
     {
@@ -122,7 +110,6 @@ class PageController extends Controller
 
     /**
      * Show specified view.
-     *
      */
     public function sellerDetail(): View
     {
@@ -131,7 +118,6 @@ class PageController extends Controller
 
     /**
      * Show specified view.
-     *
      */
     public function reviews(): View
     {
@@ -140,7 +126,6 @@ class PageController extends Controller
 
     /**
      * Show specified view.
-     *
      */
     public function fileManager(): View
     {
@@ -149,7 +134,6 @@ class PageController extends Controller
 
     /**
      * Show specified view.
-     *
      */
     public function pointOfSale(): View
     {
@@ -158,7 +142,6 @@ class PageController extends Controller
 
     /**
      * Show specified view.
-     *
      */
     public function chat(): View
     {
@@ -167,7 +150,6 @@ class PageController extends Controller
 
     /**
      * Show specified view.
-     *
      */
     public function post(): View
     {
@@ -176,7 +158,6 @@ class PageController extends Controller
 
     /**
      * Show specified view.
-     *
      */
     public function calendar(): View
     {
@@ -185,7 +166,6 @@ class PageController extends Controller
 
     /**
      * Show specified view.
-     *
      */
     public function crudDataList(): View
     {
@@ -194,7 +174,6 @@ class PageController extends Controller
 
     /**
      * Show specified view.
-     *
      */
     public function crudForm(): View
     {
@@ -203,7 +182,6 @@ class PageController extends Controller
 
     /**
      * Show specified view.
-     *
      */
     public function usersLayout1(): View
     {
@@ -212,7 +190,6 @@ class PageController extends Controller
 
     /**
      * Show specified view.
-     *
      */
     public function usersLayout2(): View
     {
@@ -221,7 +198,6 @@ class PageController extends Controller
 
     /**
      * Show specified view.
-     *
      */
     public function usersLayout3(): View
     {
@@ -230,7 +206,6 @@ class PageController extends Controller
 
     /**
      * Show specified view.
-     *
      */
     public function profileOverview1(): View
     {
@@ -239,7 +214,6 @@ class PageController extends Controller
 
     /**
      * Show specified view.
-     *
      */
     public function profileOverview2(): View
     {
@@ -248,7 +222,6 @@ class PageController extends Controller
 
     /**
      * Show specified view.
-     *
      */
     public function profileOverview3(): View
     {
@@ -257,7 +230,6 @@ class PageController extends Controller
 
     /**
      * Show specified view.
-     *
      */
     public function wizardLayout1(): View
     {
@@ -266,7 +238,6 @@ class PageController extends Controller
 
     /**
      * Show specified view.
-     *
      */
     public function wizardLayout2(): View
     {
@@ -275,7 +246,6 @@ class PageController extends Controller
 
     /**
      * Show specified view.
-     *
      */
     public function wizardLayout3(): View
     {
@@ -284,7 +254,6 @@ class PageController extends Controller
 
     /**
      * Show specified view.
-     *
      */
     public function blogLayout1(): View
     {
@@ -293,7 +262,6 @@ class PageController extends Controller
 
     /**
      * Show specified view.
-     *
      */
     public function blogLayout2(): View
     {
@@ -302,7 +270,6 @@ class PageController extends Controller
 
     /**
      * Show specified view.
-     *
      */
     public function blogLayout3(): View
     {
@@ -311,7 +278,6 @@ class PageController extends Controller
 
     /**
      * Show specified view.
-     *
      */
     public function pricingLayout1(): View
     {
@@ -320,7 +286,6 @@ class PageController extends Controller
 
     /**
      * Show specified view.
-     *
      */
     public function pricingLayout2(): View
     {
@@ -329,7 +294,6 @@ class PageController extends Controller
 
     /**
      * Show specified view.
-     *
      */
     public function invoiceLayout1(): View
     {
@@ -338,7 +302,6 @@ class PageController extends Controller
 
     /**
      * Show specified view.
-     *
      */
     public function invoiceLayout2(): View
     {
@@ -347,7 +310,6 @@ class PageController extends Controller
 
     /**
      * Show specified view.
-     *
      */
     public function faqLayout1(): View
     {
@@ -356,7 +318,6 @@ class PageController extends Controller
 
     /**
      * Show specified view.
-     *
      */
     public function faqLayout2(): View
     {
@@ -365,7 +326,6 @@ class PageController extends Controller
 
     /**
      * Show specified view.
-     *
      */
     public function faqLayout3(): View
     {
@@ -374,7 +334,6 @@ class PageController extends Controller
 
     /**
      * Show specified view.
-     *
      */
     public function login(): View
     {
@@ -383,7 +342,6 @@ class PageController extends Controller
 
     /**
      * Show specified view.
-     *
      */
     public function register(): View
     {
@@ -392,7 +350,6 @@ class PageController extends Controller
 
     /**
      * Show specified view.
-     *
      */
     public function errorPage(): View
     {
@@ -401,7 +358,6 @@ class PageController extends Controller
 
     /**
      * Show specified view.
-     *
      */
     public function updateProfile(): View
     {
@@ -410,7 +366,6 @@ class PageController extends Controller
 
     /**
      * Show specified view.
-     *
      */
     public function changePassword(): View
     {
@@ -419,7 +374,6 @@ class PageController extends Controller
 
     /**
      * Show specified view.
-     *
      */
     public function regularTable(): View
     {
@@ -428,7 +382,6 @@ class PageController extends Controller
 
     /**
      * Show specified view.
-     *
      */
     public function tabulator(): View
     {
@@ -437,7 +390,6 @@ class PageController extends Controller
 
     /**
      * Show specified view.
-     *
      */
     public function modal(): View
     {
@@ -446,7 +398,6 @@ class PageController extends Controller
 
     /**
      * Show specified view.
-     *
      */
     public function slideOver(): View
     {
@@ -455,7 +406,6 @@ class PageController extends Controller
 
     /**
      * Show specified view.
-     *
      */
     public function notification(): View
     {
@@ -464,7 +414,6 @@ class PageController extends Controller
 
     /**
      * Show specified view.
-     *
      */
     public function tab(): View
     {
@@ -473,7 +422,6 @@ class PageController extends Controller
 
     /**
      * Show specified view.
-     *
      */
     public function accordion(): View
     {
@@ -482,7 +430,6 @@ class PageController extends Controller
 
     /**
      * Show specified view.
-     *
      */
     public function button(): View
     {
@@ -491,7 +438,6 @@ class PageController extends Controller
 
     /**
      * Show specified view.
-     *
      */
     public function alert(): View
     {
@@ -500,7 +446,6 @@ class PageController extends Controller
 
     /**
      * Show specified view.
-     *
      */
     public function progressBar(): View
     {
@@ -509,7 +454,6 @@ class PageController extends Controller
 
     /**
      * Show specified view.
-     *
      */
     public function tooltip(): View
     {
@@ -518,7 +462,6 @@ class PageController extends Controller
 
     /**
      * Show specified view.
-     *
      */
     public function dropdown(): View
     {
@@ -527,7 +470,6 @@ class PageController extends Controller
 
     /**
      * Show specified view.
-     *
      */
     public function typography(): View
     {
@@ -536,7 +478,6 @@ class PageController extends Controller
 
     /**
      * Show specified view.
-     *
      */
     public function icon(): View
     {
@@ -545,7 +486,6 @@ class PageController extends Controller
 
     /**
      * Show specified view.
-     *
      */
     public function loadingIcon(): View
     {
@@ -554,7 +494,6 @@ class PageController extends Controller
 
     /**
      * Show specified view.
-     *
      */
     public function regularForm(): View
     {
@@ -563,7 +502,6 @@ class PageController extends Controller
 
     /**
      * Show specified view.
-     *
      */
     public function datepicker(): View
     {
@@ -572,7 +510,6 @@ class PageController extends Controller
 
     /**
      * Show specified view.
-     *
      */
     public function tomSelect(): View
     {
@@ -581,7 +518,6 @@ class PageController extends Controller
 
     /**
      * Show specified view.
-     *
      */
     public function fileUpload(): View
     {
@@ -590,7 +526,6 @@ class PageController extends Controller
 
     /**
      * Show specified view.
-     *
      */
     public function wysiwygEditorClassic(): View
     {
@@ -599,7 +534,6 @@ class PageController extends Controller
 
     /**
      * Show specified view.
-     *
      */
     public function wysiwygEditorInline(): View
     {
@@ -608,7 +542,6 @@ class PageController extends Controller
 
     /**
      * Show specified view.
-     *
      */
     public function wysiwygEditorBalloon(): View
     {
@@ -617,7 +550,6 @@ class PageController extends Controller
 
     /**
      * Show specified view.
-     *
      */
     public function wysiwygEditorBalloonBlock(): View
     {
@@ -626,7 +558,6 @@ class PageController extends Controller
 
     /**
      * Show specified view.
-     *
      */
     public function wysiwygEditorDocument(): View
     {
@@ -635,7 +566,6 @@ class PageController extends Controller
 
     /**
      * Show specified view.
-     *
      */
     public function validation(): View
     {
@@ -644,7 +574,6 @@ class PageController extends Controller
 
     /**
      * Show specified view.
-     *
      */
     public function chart(): View
     {
@@ -653,7 +582,6 @@ class PageController extends Controller
 
     /**
      * Show specified view.
-     *
      */
     public function slider(): View
     {
@@ -662,7 +590,6 @@ class PageController extends Controller
 
     /**
      * Show specified view.
-     *
      */
     public function imageZoom(): View
     {

@@ -57,7 +57,7 @@ class User extends Authenticatable
     public function getPhotoUrlAttribute(): string
     {
         if ($this->foto !== null) {
-            return url('media/user/' . $this->id . '/' . $this->foto);
+            return url('media/user/'.$this->id.'/'.$this->foto);
         } else {
             return url('media-example/no-image.png');
         }
